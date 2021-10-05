@@ -9,6 +9,7 @@
     "build": "parcel build index.html"
   },
   "devDependencies": {
+    "@types/node": "^16.10.2",
     "parcel-bundler": "^1.12.5",
     "typescript": "^4.4.3"
   },

@@ -2,7 +2,7 @@ import axios from "axios";
 
 console.log('Bora começar');
 
-axios.defaults.baseURL = "http://192.168.1.101:3000"
+axios.defaults.baseURL = process.env.BACK_URL;
 
 window.addEventListener('load', function () {
   console.log('Carreguei :)')
